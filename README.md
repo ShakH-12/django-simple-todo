@@ -48,7 +48,7 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
 # 2. Установить зависимости
-pip install django djangorestframework django-cors-headers python-decouple
+pip install -r requirements.txt
 
 # 3. Создать .env в корне проекта
 SECRET_KEY=your-secret-key-here
